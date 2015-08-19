@@ -6,6 +6,6 @@ public class ClearRule extends ExternalResource {
    }
 
   protected void after() {
-    Task.clear();
+    Hangman.clear();
   }
 }
